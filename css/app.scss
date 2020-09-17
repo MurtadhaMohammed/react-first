@@ -1,0 +1,52 @@
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.form{
+    background-color: #e6e3e3;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    input{
+        flex: 5;
+        border: none;
+        outline: none;
+        padding: 8px 16px;
+        border: 1px solid #eee;
+
+    }
+
+    input:focus{
+       border-color: greenyellow;
+    }
+
+    button{
+        flex: 1;
+    }
+
+}
+
+.list{
+    .list-item{
+        display: flex;
+        align-items: center;
+        background-color: #e6e3e3;
+        padding: 10px 20px;
+        margin-top: 20px;
+        border-radius: 4px;
+        p{
+            flex: 5;
+        }
+        button{
+           flex: 1;
+           border: none;
+           background-color: red;
+           color: #fff;
+           height: 40px;
+           width: 60px;
+           border-radius: 4px;
+        }
+    }
+}
